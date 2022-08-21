@@ -1,0 +1,163 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.container {
+		width: 1200px
+	}
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.container {
+		width: 1100px;
+	}
+
+	.header-link p {
+		margin-right: 12px;
+	}
+
+	.main-menu {
+		position: relative;
+		right: -50px;
+	}
+
+	.service-content h4 {
+		padding: 10px 15px;
+		margin-top: -11px;
+	}
+
+	.cta-text h4 {
+		font-size: 17px;
+	}
+
+	.project-content h4 {
+		margin-bottom: 0;
+	}
+
+	.header-link ul li {
+		display: inline-block;
+		margin-right: 0px;
+	}
+
+	.header-link ul li {
+		margin-right: 0px;
+	}
+
+	.copyright {
+		padding-top: 50px;
+	}
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 800px
+	}
+
+	.header-link p {
+		margin-right: 14px;
+	}
+
+	.header-link ul li {
+		margin-right: 15px;
+		padding-top: 2px;
+	}
+
+	.slider-text h1 {
+		font-size: 44px;
+	}
+
+	.slider-area {
+		min-height: 600px;
+	}
+
+	.slider-area {
+		min-height: 600px;
+	}
+
+	.display-block {
+		display: none;
+	}
+
+	.cta-text h4 {
+		margin-bottom: 10px;
+	}
+
+	.main-menu ul li a {
+		padding: 20px 3px;
+	}
+
+	.boxed-btn {
+		padding: 10px 30px;
+	}
+
+	.section-padding {
+		padding: 50px 0;
+	}
+
+	.project-content h4 {
+		padding-top: 25px;
+	}
+
+	.copyright {
+		padding-top: 50px;
+	}
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	.location p {
+		font-size: 13px;
+	}
+	.float-right {
+		width: 100%;
+	}
+	.slider-text h1 {
+		font-size: 30px;
+	}
+	.boxed-btn {
+		padding: 5px 10px;
+	}
+	.team-icon ul {
+		position: relative;
+		left: 0;
+	}
+	.slider-area {
+		min-height: 500px;
+	}
+	.slider-text {
+		position: relative; 
+		top: 22%;
+	}
+	.section-padding {
+		padding: 50px 0;
+	}
+	.header-link ul {
+		position: relative;
+		left: 0;
+	}
+	.service-content h4 {
+		font-size: 18px;
+	}
+	.row.pt-100 {
+		padding-top: 0;
+	}
+	.project-content h4 {
+		margin-top: 20px;
+	}
+	.copyright {
+		padding-top: 20px;
+	}
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {
+		width: 450px
+	}
+
+}
